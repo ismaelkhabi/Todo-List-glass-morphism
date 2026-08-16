@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="styles/todo-list.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h1>To-Do App</h1>
+        <form class="input-area">
+          <input type="text" placeholder="Add a new task" id="task-input" />
+          <button
+            type="button"
+            class="add-task-btn"
+            id="add-task-btn"
+            onclick="addTask()"
+          >
+            <i
+              class="fa-solid fa-plus"
+              style="color: rgba(249, 249, 249, 0.999)"
+            ></i>
+          </button>
+        </form>
+        <div class="todos-container">
+          <ul id="task-list" class="task-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-name">Made by ISmael</div>
+
+    <script src="scripts/todo-list.js"></script>
+  </body>
+</html>
