@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("/background-galaxy-nature.jpg") no-repeat center
+  background: url("background-galaxy-nature.jpg") no-repeat center
     center/cover;
 
   font-family: "Saira", sans-serif;
